@@ -1,0 +1,4 @@
+.dropdown-about:focus,  .dropdown-about:active{
+    outline: none !important;
+    box-shadow: none !important;
+}
