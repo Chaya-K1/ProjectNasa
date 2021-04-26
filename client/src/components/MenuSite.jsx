@@ -1,4 +1,4 @@
-
+﻿
 import React from "react";
 import {
     BrowserRouter as Router, Link, Route, Switch
@@ -59,6 +59,9 @@ function MenuSite() {
                     </Route>
                     <Route path="/about">
                         <About />
+                    </Route>
+                      <Route path="/">
+                        <img src={logo} alt="logo of nasa apod"></img>
                     </Route>
                 </Switch>
             </Router>
